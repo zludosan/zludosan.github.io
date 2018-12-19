@@ -3,5 +3,14 @@
 <body>
 <h1>Personal User Web Page</h1>
 <p>Work in progress.</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 </body>
 </html>
