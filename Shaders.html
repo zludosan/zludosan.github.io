@@ -48,9 +48,25 @@ display: block;
 
 <div id="loader"></div>
 
-<div style="display:none;" id="myDiv">
-<img src="assets/images/custom/phageborn.jpg" onload="showPage()">
-</div>
+<div class="row">
+    <div class="image fit">
+      
+      <div id ="id="myDiv"" class="item">
+        <a href="https://store.steampowered.com/app/1037990/PHAGEBORN_Online_Card_Game/" class="image fit"><img src="{{ 'assets/images/custom/phageborn.jpg' | relative_url }}" onload="showPage()" alt="Phageborn Games Revolted" /></a>
+        <header>
+          <h3>Phageborn</h3>
+        </header>
+      </div>
+      
+      <div id ="loader" class="item">
+        <a href="#" class="image fit"><img src="{{ 'assets/images/custom/kronocellbook.jpg' | relative_url }}" onload="showPage()" alt="Kronocell Lion Game Lion" /></a>
+        <header>
+          <h3>Kronocell</h3>
+        </header>
+      </div>
+      
+    </div>
+  </div>
 
 <script>
 var myVar;
